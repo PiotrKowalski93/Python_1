@@ -15,3 +15,7 @@ print();
 
 for a in myExample:
     print(a, myExample[a])
+    
+# you can use function get() which is more secure
+
+print(myExample.get('nonExisting'));
