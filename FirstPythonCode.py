@@ -15,3 +15,11 @@ print("Variables and Calculations");
 a = 2;
 a += 2;
 print(a);
+
+print();
+
+x = 1_000_000
+y = 2;
+
+answer = x + y;
+print(f'{answer:,}');
