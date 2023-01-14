@@ -12,13 +12,14 @@ def binary_search(list, target):
         else:
             last = mid - 1
     
-    return None
+    return first
         
 def verify(index):
     if index is not None:
         print("Found at: ", index)
     else:
         print("Not found")
+
 
 
 numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16]
