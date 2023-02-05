@@ -44,4 +44,7 @@ t2 = end - start
 print('List: ',t1)
 print('np.dot: ',t2)
 
+# List:  0.3894484000011289
+# np.dot:  0.0030544000001100358
+
 
