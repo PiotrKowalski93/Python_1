@@ -165,12 +165,12 @@ def containsNearbyDuplicate(nums: List, k: int) -> bool:
         dict = {}
 
         for i in range(0, len(nums)):
-            if nums[i] in dict:
-                j = dict[nums[i]]
+            if i in dict:
+                j = dict[i]
                 if abs(i - j) <= k:
                     return True
             else:
-                dict[nums[i]] = i
+                dict[i] = nums[i]
         return False
 
 if __name__ == '__main__':
