@@ -21,3 +21,14 @@ print(a)
 # form X...Y with K number of elements
 a = np.linspace(0,15,9)
 print(a)
+
+a = np.random.random((3,3))
+print(a)
+
+# Random Gauss distribution
+a = np.random.randn(100)
+print(a)
+
+# Random with range
+a = np.random.randint(1,15,size=(4,3))
+print(a)
