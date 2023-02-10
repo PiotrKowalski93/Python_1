@@ -32,3 +32,7 @@ print(a)
 # Random with range
 a = np.random.randint(1,15,size=(4,3))
 print(a)
+
+# Random from list
+a = np.random.choice([1,7,6,-4,-2], size=10)
+print(a)
